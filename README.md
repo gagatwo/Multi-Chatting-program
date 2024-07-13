@@ -39,6 +39,6 @@
    - GUI 창을 닫으면 채팅이 종료되도록 WindwoListener 추가
 
 
-3. ChattingUI.pdf
+3. Chatting_UI.pdf
     - 실제 작동 화면 자료
      
