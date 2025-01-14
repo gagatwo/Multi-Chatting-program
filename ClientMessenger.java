@@ -46,7 +46,7 @@ public class ClientMessenger extends JFrame {
             out.println(name);
             out.flush();
 
-            //채팅창에 텍스트를 적고 enter를 누르면 서버로 전달하는 tread
+            //채팅창에 텍스트를 적고 enter를 누르면 서버로 전달
             input.addActionListener(e -> {
                 JTextField message = (JTextField) e.getSource();
                 out.println(message.getText());
