@@ -9,7 +9,6 @@ public class Server {
     public static void open() {
         ServerSocket serverSocket = null;
         Socket socket = null;
-        Scanner scanner = new Scanner(System.in);
         try {
             serverSocket = new ServerSocket(5000); //포트 번호 5000으로 socket 생성
 
@@ -25,7 +24,6 @@ public class Server {
         }
         finally {
             try {
-                scanner.close();        // Scanner 닫기
                 socket.close();            // Socket 닫기
                 serverSocket.close();        // ServerSocket 닫기
                 System.out.println("연결 종료");
